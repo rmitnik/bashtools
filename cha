@@ -1,1 +1,4 @@
-
+#!/bin/bash
+#cha ( rmitnik 20181028, GNU License )
+# changes the attributes to each archive type found recursively from the current directory
+find . -type f -exec chmod $1 {} +

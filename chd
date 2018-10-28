@@ -1,0 +1,3 @@
+#!/bin/bash
+#changes the attributes to each directory found recusively from the current directory
+find . -type d -exec chmod $1 {} +
