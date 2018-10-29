@@ -1,3 +1,4 @@
 #!/bin/bash
 #changes the attributes to each directory found recusively from the current directory
+# $1 is the chmod numerical parameter: $chd 755 => changes all directories permissions from . recusively, files are ignored
 find . -type d -exec chmod $1 {} +

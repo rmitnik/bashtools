@@ -1,4 +1,5 @@
 #!/bin/bash
 #cha ( rmitnik 20181028, GNU License )
 # changes the attributes to each archive type found recursively from the current directory
+# $1 is the unique parameter; the numeric chmod attributes to change ia all those files.
 find . -type f -exec chmod $1 {} +
